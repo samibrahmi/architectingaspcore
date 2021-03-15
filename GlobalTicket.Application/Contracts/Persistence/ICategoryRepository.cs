@@ -7,6 +7,5 @@ namespace GlobalTicket.Application.Contracts.Persistence
 {
     public interface ICategoryRepository : IAsyncRepository<Category>
     {
-         int nouveau { get; set; }
     }
 }
